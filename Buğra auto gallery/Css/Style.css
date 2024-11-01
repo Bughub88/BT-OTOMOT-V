@@ -1,0 +1,420 @@
+*{
+
+box-sizing: border-box ;
+}
+
+body {
+
+font-family: 'Nunito Sans', sans-serif;
+margin: 0;
+
+}
+
+   #menu{
+
+   height: 80px;
+   padding: 0 20px;
+   
+
+   }
+  
+   #logo{
+   font-size: 30px;
+    line-height: 80px;
+    color:black ;
+    float: left;
+    margin-left: -80px;
+    user-select: none;
+   }
+
+   nav{
+
+float: right;
+line-height: 80px;
+
+   }
+   nav a:link{
+
+   	text-decoration: none;
+   	margin-right: 25px;
+   	 color:#003666 ;
+   }
+
+   nav a:hover{
+
+   border-bottom: 2px solid #003666 ;
+   }
+   nav a:visited{
+     text-decoration: none;
+     	margin-right: 25px;
+   	      color:#003666 ;
+
+   }
+
+   .ikon{
+
+   	margin-right: 7px;
+   	font-size: 16px;
+   }
+
+   #banner{
+
+   height: 1000px;
+   background-image: url("../İmages/togg.jpg");
+   background-size:cover ;
+   background-attachment: fixed;
+   weight: 1300px;
+
+   }
+   #black{
+ height: 1000px;
+ background-color: black;
+ opacity: 0.5;
+ weight: 1300px;
+
+   }
+   #icerik{
+    position:absolute ;
+    top:50% ;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 20px;
+    min-height: 100vh;
+    margin-top: 300px;
+
+   }
+   #hakkimizda{
+  background-color: #f8f9fa;
+  padding: 100px;
+  text-align: center;
+ text-transform: capitalize;
+  font-weight:1300px;
+   }
+   h3{
+
+    font-size: 55px;
+    color:#003666 ;
+    text-shadow: 0px 1px 1px black;
+    font-weight:600 ;
+
+}
+
+.container{
+
+width: 1300px;
+height: auto;
+margin: auto;
+
+
+}
+#sol{
+
+float: left;
+border-right: 3px solid #445c6e;
+font-size: 30px;
+width: 400px;
+color:#445c6e ;
+
+}
+#h5sol{
+line-height: 1.6;
+font-size: 22px;
+font-weight: 600;
+
+
+}
+#h5sol, #sag{
+margin: 0;
+padding: 0;
+margin-top: 20px;
+}
+span{
+font-size: 50px;
+margin-right: 7px;
+line-height: 42px;
+color:#003666;
+font-weight: 600;
+float: left;
+}
+#sag{
+float: right;
+width: 750px;
+color:#70778b;
+text-align: left;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 1.8;
+font-weight: 100;
+}
+.img-fluid{
+  width: 1300px;
+ height: 300px;
+ float: left;
+ max-width: 100%;
+ height: auto;
+}
+.mt100{
+margin-top: 100px;
+
+}
+#pson{
+color:#70778b ;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 1.8;
+margin-top: 50px;
+font-weight: 100;
+}
+.resim{
+
+  width: 317px;
+  height: 170px;
+margin-top: 1px;
+
+}
+#arabalar{
+  background-color:#fff;
+  padding: 50px;
+  text-align: center;
+  height: 700px;
+}
+.card{
+
+  width: 320px;
+  height: 350px;
+  border: 1px solid #ddd;
+  padding: 0;
+  display: inline-block;
+}
+.baslikcard{
+  font-size: 15px;
+  color: #003666;
+}
+.button{
+   background-color: #003666;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+}
+.button:hover{
+
+background-color: black;
+}
+.cardp{
+
+  color: #445c6e;
+}
+.card:hover{
+  border: 2px solid gray;
+
+
+}
+#ekip{
+
+background-color:lightgrey;
+margin-top: 150px;
+height: 800px;
+text-align: center;
+
+}
+#ekiph3{
+
+  color:#fff;
+  margin-left: -150px;
+}
+.sutun-sol-sag{
+  width: 385px;
+  float: left;
+  padding: 50px;
+}
+.oval{
+
+  border-radius: 50%;
+}
+.ekipisim{
+
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.ekipp{
+
+  color:black;
+  font-size: 18px;
+}
+.social{
+ background-color: white;
+  padding: 10px;
+  border: 1px solid white;
+  width: 50px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.social:hover{
+  background-color: black;
+}
+.sutun{
+width: 385px;
+  float: left;
+  padding: 10px;
+
+
+}
+#tanitim{
+
+
+  text-align: center;
+}
+.video{
+margin-left: 80px;
+
+ 
+}
+#bot{
+  padding: 200px;
+  background-color: grey;
+
+}
+#iletisim{
+
+  background: url(../İmages/send.jpg);
+  background-size: cover;
+  padding: 50px;
+  height: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+#h3iletisim{
+
+  color: white;
+}
+#iletisimopak{
+background: rgba(255, 255, 255, 0.2);
+padding: 30px 20px;
+border-radius: 5px;
+margin-bottom: 50px;
+height: 550px;
+}
+#formgroup{
+
+  width: 600px;
+  float: left;
+  height: 500px;
+  text-align: left;
+}
+#solform{
+
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+#sagform{
+
+  width: 50%;
+  float: right;
+  padding-left: 5px;
+}
+.formcontrol{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+textarea{
+
+  font-family: Arial;
+}
+input[type="submit"]{
+
+  cursor:pointer;
+  background-color: #003666;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+input[type="submit"]:hover{
+background-color: black;
+
+}
+
+.sıl{
+
+  cursor:pointer;
+  background-color: #003666;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.sıl:hover{
+background-color: black;
+
+}
+#adres{
+  width: 600px;
+  float: right;
+  padding: 30px;
+  height: 500px;
+  text-align: left;
+}
+#adresbaslik{
+  font-size: 30px;
+  color: white;
+}
+.adresp{
+  color:white;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copy{
+
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+#up{
+
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 15px;
+  padding:9px 12px;
+  margin-bottom: -100px;
+  background-color: black;
+}
+.yuksek{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
